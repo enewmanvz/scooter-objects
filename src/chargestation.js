@@ -2,9 +2,9 @@ class ChargeStation {
     static currentId = 0;
     static stations = [];
 
-	constructor(locationID, spaceCapacity) {
-		if (locationID === undefined) throw new Error("station must have location");
-        this.locationID = locationID;
+	constructor(locationAddress, spaceCapacity) {
+		if (locationAddress === undefined) throw new Error("station must have location");
+        this.locationAddress = locationAddress;
         this.spaceCapacity = spaceCapacity;
         this.id = this.constructor.currentId++;
 

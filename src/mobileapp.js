@@ -2,10 +2,8 @@ const Scooter= require('./scooter')
 const User = require('./user')
 
 class MobileApp {
-    constructor(name,license,email,phone){
-        this.paymentMethods= []
-        this.rentHistory = []
-        this.currentScooters = []
+    constructor(){
+        
     }
 
     addPaymentMethod(methodName){
@@ -17,7 +15,7 @@ class MobileApp {
     registerUser(user){
         if(this.verifyAge(user.age)){
             createUser      
-
+            
         }
 
         //Todo:register new user 
@@ -48,4 +46,4 @@ class MobileApp {
 //let testPerson2 = new User("Adam","12345678","adamk@aol.com","355-555-5555");
 //console.log(Person.people);
 
-module.exports = User
+module.exports = MobileApp
