@@ -23,10 +23,10 @@ describe('User class', () => {
         expect(testUser.phone).toBe("214-255-5555")
     })
         test("A user must have an age that is 18 or older", () => {
-        const name = "John";
-        const license = "1234";
-        const email = "mark@me.com";
-        const phone = "555-555-5555";
+        const name = "Ann";
+        const license = "07532118";
+        const email = "anab@hotmail.com";
+        const phone = "214-255-5555";
         const ageA = 15;
         const ageB = 20;
         expect(() => new User(name, license, email, phone, ageA)).toThrowError("user must be 18 or older");

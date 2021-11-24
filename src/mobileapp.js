@@ -5,7 +5,6 @@ class MobileApp {
     constructor(){
         
     }
-
     addPaymentMethod(methodName){
         this.paymentMethods.push(methodName);
     }
@@ -15,7 +14,7 @@ class MobileApp {
     registerUser(user){
         if(this.verifyAge(user.age)){
             createUser      
-            
+
         }
 
         //Todo:register new user 
