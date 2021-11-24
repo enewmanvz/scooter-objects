@@ -19,10 +19,10 @@ class ChargeStation {
 		this.scooters.push(scooter)
 	}
 }
-let station1 = new ChargeStation('001',20);
-let station2 = new ChargeStation('002',10);
-station1.addScooter('redscooter')
-console.log(ChargeStation.stations);
+//let station1 = new ChargeStation('001',20);
+//let station2 = new ChargeStation('002',10);
+//station1.addScooter('redscooter')
+//console.log(ChargeStation.stations);
 
 
 module.exports = ChargeStation

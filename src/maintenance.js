@@ -8,4 +8,4 @@ class Maintenance extends Person {
     }
 }
 
-module.exports = CrewMember
+module.exports = Maintenance
